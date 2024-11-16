@@ -98,7 +98,7 @@ export default function FeaturedProducts() {
                     </h3>
                     <p className="mt-1 text-sm text-gray-500">{product.category}</p>
                   </div>
-                  <p className="text-lg font-medium text-emerald-600">${product.price}</p>
+                  <p className="text-lg font-medium text-emerald-600">&#8377;{product.price}</p>
                 </div>
                 
                 <div className="mt-2 flex items-center">

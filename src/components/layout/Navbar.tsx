@@ -15,12 +15,9 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="bg-emerald-900 text-white py-2 text-center text-sm">
-        🌱 Free delivery on orders over $50 | Use code ORGANIC20 for 20% off
-      </div>
-      <nav className="bg-white shadow-md fixed w-full z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
+      <nav className="bg-white   w-full ">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mb-9 mt-4">
+          <div className="flex justify-between ">
             <div className="flex items-center">
               <a href="/" className="flex items-center">
                 <Leaf className="h-8 w-8 text-emerald-600" />
@@ -40,7 +37,7 @@ export default function Navbar() {
                 <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
               </div>
             </div>
-            
+
             <div className="hidden md:flex items-center space-x-8">
               {navigation.map((item) => (
                 <a
